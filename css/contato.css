@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 850px;
+    margin: 40px
+}
+
+#container h1 {
+    color: antiquewhite;
+    font-weight: bold;
+}
+
+#contato legend {
+    font-size: 2.5rem;
+    color: antiquewhite;
+    margin-bottom: 2rem;
+}
+
+#contato .formLabel label {
+    font-size: 1.2rem;
+    color: aliceblue;
+    border-radius: 2px;
+    margin: 20px
+}
+
+#contato .formInput input {
+    width: 80%;
+    color: aliceblue;
+    margin: 6px
+}
+
+#contato .formInput textarea {
+    width: 80%;
+    margin-left: 10px;
+}
+
+#contato .botao button {
+    width: 70%;
+    background-color: red;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+#contato .botao button:hover {
+    background-color: rgba(189, 31, 26, 0.835);
+}

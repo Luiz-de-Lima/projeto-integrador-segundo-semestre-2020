@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..\css\header.css">
+    <link rel="shortcut icon" href="..\css\img\headIcon.png" />
+    <title>Uma Idéia Supérfula</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="..\css\img\icon.png" alt="logo" style="max-width: 5%;">
+        <nav>
+            <ul class="nav__links">
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Projetos</a></li>
+                <li><a href="#">Diversas futilidades</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="..\contato\contato.html"><button>Entre em contato</button></a>
+    </header>
+
+
+
+</body>
+</html>
+
+CASO NÃO SAIA IMAGEM OU O CSS NÃO RECONHECE USE O ARQUIVO CONTATO.PHP QUE ESTA NO DIRETORIO CONTATO E O INDEX.PHP COMO BASE 
