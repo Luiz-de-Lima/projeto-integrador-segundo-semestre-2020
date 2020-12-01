@@ -1,0 +1,24 @@
+h1{
+    color: whitesmoke;
+}
+
+
+.descricao{
+    text-align: center;
+    font-size: 2rem; 
+    margin-top:2%;
+}
+
+.paragrafo{
+    margin-top: 3%;
+    font-size: 1rem;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.texto{
+    font-size: 1rem;
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+}

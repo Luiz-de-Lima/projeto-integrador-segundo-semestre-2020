@@ -1,12 +1,14 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     background-color: black;
+    font-family: "Montserrat", sans-serif;
 }
 
-
-li, a, button {
+li,
+a,
+button {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -14,40 +16,62 @@ li, a, button {
     text-decoration: none;
 }
 
-header{
+header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding: 30px 10%;
 }
 
-.logo{
+.logo {
+    width: 100%;
     cursor: pointer;
     margin-right: auto;
 }
 
+nav {
+    width: 100%;
+}
 
+label[for="btn_menu"] {
+    padding: 5px;
+    background-color: #fc5c65;
+    color: #f1f1f1;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+    width: 50px;
+    height: 45px;
+}
 
-.nav__links{
+label[for="btn_menu"] {
+    display: none;
+}
+
+#btn_menu {
+    display: none;
+}
+
+.nav__links {
     list-style: none;
 }
 
-.nav__links li{
+.nav__links li {
     display: inline-block;
     padding: 0px 20px;
 }
 
-.nav__links li a{
+.nav__links li a {
     transition: all 0.3s ease 0s;
 }
 
-.nav__links li a:houver{
+.nav__links li a:houver {
     color: #f1f1f1;
     background: #fc5c65;
 }
 
-
-button{
+button {
     padding: 9px 25px;
     color: #f1f1f1;
     background: #fc5c65;
@@ -58,8 +82,37 @@ button{
     margin-left: 35px;
 }
 
-button:houver{
+button:houver {
     color: #f1f1f1;
     background: #fc5c65;
 }
 
+.Main_img {
+    width: 100%;
+    height: 350px;
+}
+
+@media screen and (max-width:800px) {
+    label[for="btn_menu"] {
+        display: block;
+    }
+    #btn_menu:checked~nav {
+        display: block;
+        margin-left: 0;
+    }
+    nav {
+        display: none;
+    }
+    nav {
+        margin-top: 5px;
+        margin-left: -100%;
+        transition: all .4;
+    }
+    .nav__links ul li {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        max-height: 0;
+    }
+}

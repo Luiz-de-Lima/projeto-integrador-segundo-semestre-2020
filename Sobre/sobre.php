@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="..\css\header.css">
     <link rel="shortcut icon" href="..\css\img\logoCopia.png" />
+    <link rel="stylesheet" href="..\css\sobre.css">
     <!--footer------------------------------------------------------------------->
     <link rel="stylesheet" href="..\css\footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
@@ -40,8 +41,25 @@
     </style>
 <!--Abaixo do header-->
 
-
-
+<img src="..\css\img\S8.jpg" style="width: 100%; height:300px;" alt="" >
+<br><br>
+      <div style=" border:1px solid black; width:100%; height:230px;">
+      <div style=" width:50%; height:99%;border: 1px solid black; margin-left:25%;">
+          <h1 class="descricao">Sobre nós</h1>
+          <p class="paragrafo">Atuamos no ramo de terceirização de serviços, atendendo com qualidade e excelência nos serviços por nós oferecidos. Nossa mão de obra é treinada e especializada para cada necessidade, buscamos sempre soluções inteligentes com o melhor custo benefício para cada cliente. Mantemos participação contínua de nossas equipes de apoio em treinamentos, congressos e feiras especializadas, os quais se transformam em agentes multiplicadores de treinamento pela transmissão e prática desses conhecimentos. </p>
+      </div>
+      </div>
+      <br><br>
+      <div style=" border:1px solid black; width:100%; height:400px;">
+      <div style=" width:30%; height:99%;border: 1px solid black; margin-left:15%; float:left;">
+         <img src="..\css\img\S9.jpeg" style="width: 100%;" alt="">
+      </div>
+      <div style="width:30%; height:99%;border:1px solid black; float:right;margin-right:22%;">
+          <div style="width:100%; height:55%;border:1px solid black;margin-top:22%;">
+            <p class="texto">Atuamos no ramo de terceirização de serviços, atendendo com qualidade e excelência nos serviços por nós oferecidos. Nossa mão de obra é treinada e especializada para cada necessidade, buscamos sempre soluções inteligentes com o melhor custo benefício para cada cliente. Mantemos participação contínua de nossas equipes de apoio em treinamentos, congressos e feiras especializadas, os quais se transformam em agentes multiplicadores de treinamento pela transmissão e prática desses conhecimentos. </p>
+          </div>
+      </div>
+      </div>
 
 <!-- FOOTER------------------------------------------------------>
 <footer>
@@ -69,6 +87,6 @@
     </div>
   </div>
 </footer>
-
+ 
 </body>
 </html>

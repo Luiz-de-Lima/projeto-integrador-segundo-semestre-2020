@@ -14,8 +14,11 @@
     <title>Uma Idéia Supérfula</title>
 </head>
 <body>
+     
     <header>
         <img src="..\umaIdeiaSuperfula\css\img\logoCopia.png" alt="" class="logo">
+        <input type="checkbox"  id="btn_menu">
+        <label for="btn_menu">&#9776;</label>
         <nav>
             <ul class="nav__links">
                 <li><a href="index.php">Menu</a></li>
@@ -64,21 +67,48 @@
 
 
 <!--Abaixo do header-->
-      <img src="..\umaIdeiaSuperfula\css\img\predio.jpg" style="width: 100%; height:300px;" alt="" >
+
+      <img src="..\umaIdeiaSuperfula\css\img\predio.jpg" class="Main_img">
       <br><br>
-      <div style=" border:1px solid black; width:100%; height:230px;">
-      <div style=" width:80%; height:50%">
-          <h1 style="font-size: 2rem; margin-top:2%; margin-left:3%;">POR QUE TERCEIRIZAR A LIMPEZA DO ESTABELECIMENTO?</h1>
-          <p style="font-size: 1rem; margin-top:2%; margin-left:3%;">A qualidade do asseio de um ambiente pode impactar diretamente na imagem da empresa, além de influenciar
-          também no bem-estar de seus frequentadores, podendo afetar a rotina de trabalho.</p>
-          
-          <p style="font-size: 1rem; margin-top:2%; margin-left:3%;">Nesse sentido, no momento de contratar uma empresa terceirizada de limpeza e conservação, é importante que se tenha em vista que a prestadora do serviço deve fornecer 
-          uma equipe apta para traçar um cronograma estratégico da área de limpeza do estabelecimento, que considere a natureza, tamanho e fluxo de pessoas. Entender as necessidades 
-          específicas dos clientes e selecionar profissionais aptos para realizarem a limpeza e conservação de ambientes são pontos chave para a eficiência do serviço.</p>
+      <div style="border:1px solid black; width:100%; height:230px;">
+      <div style="width:75%; height:99%;border: 1px solid black; margin-left:15%;">
+          <h1 class="descricao">Terceirização de serviços</h1>
+          <p class="paragrafo">Prestamos serviços de terceirização de mão-de-obra, especializada ou semi-especializada, com treinamento, orientação e supervisão constantes para cada função e posto de serviço, adequando nosso procedimento padrão à cultura e necessidades específicas de cada cliente.<br><br>
+          Tenha à sua disposição a nossa experiência de mais de 18 anos no mercado e uma equipe preparada para atender suas necessidades de serviços de apoio. </p>
+      </div>
+      </div>
+      <br>
+      <div class="f" style=" border:1px solid black; width:100%; height:400px;">
+          <div class="imagem">
+            <img src="..\umaIdeiaSuperfula\css\img\S9.jpeg">
+          </div>
+            <p>
+            Uma empresa de terceirização de portaria vai realizar testes, entrevistas e treinamento de funcionários, isso para que o perfil do candidato seja compatível com a vaga disponível. Dessa forma, o cliente que necessita do serviço vai ter maior praticidade e segurança na hora de contratar o porteiro.
+            </p>
+      </div>
+      <br><br>
+      <div style=" border:1px solid black; width:100%; height:190px;">
+      <div class="paiTexto1" style=" width:75%; height:99%;border: 1px solid black; margin-left:15%;">
+          <h1 class="descricao">Portaria terceirizada</h1>
+          <p class="paragrafo">A LIMP SERV presta serviços terceirizados de Portaria e Controle de Acesso para condomínios residenciais e comerciais, indústrias, e  empresas de diversos portes e segmentos, utilizando de mão de obra treinada e capacitada, com acompanhamento e supervisão constante. </p>
+      </div>
+      </div>
+      
+      <div class="paiTexto2" style=" border:1px solid black; width:100%; height:190px;">
+      <div style=" width:75%; height:99%;border: 1px solid black; margin-left:15%;">
+          <h1 class="descricao">Limpeza terceirizada</h1>
+          <p class="paragrafo">Nossos serviços terceirizados de copa são prestados de forma a satisfazer totalmente as exigências dos clientes, através de treinamentos que enfatizam a cordialidade, simpatia e, sobretudo, a discrição na execução dos serviços, assim oferecendo um diferencial no atendimento e modo de atuação.  </p>
+      </div>
+      </div>
+
+      <div class="paiTexto2" style=" border:1px solid black; width:100%; height:190px;">
+      <div style=" width:75%; height:99%;border: 1px solid black; margin-left:15%;">
+          <h1 class="descricao">Serviço de recepção</h1>
+          <p class="paragrafo">Recepcionar bem os funcionários, visitantes e fornecedores, além do aspecto segurança, implica, sobretudo, em demonstrar profissionalismo e organização, contribuindo para a construção da boa imagem para o contratante. </p>
       </div>
       </div>
 <!-- FOOTER------------------------------------------------------>
-    <footer>
+   <footer>
       <div class="footer-container">
         <div class="left-col">
           <img src="..\umaIdeiaSuperfula\css\img\logoCopia.png" alt="" class="logo">
@@ -102,7 +132,7 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> 
 
 </body>
 </html>
