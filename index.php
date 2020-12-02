@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="..\umaIdeiaSuperfula\css\footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <!--footer------------------------------------------------------------------->
-    <title>Uma Idéia Supérfula</title>
+    <title>S&C Serviços e Cuidados</title>
 </head>
 <body>
      
@@ -21,7 +21,7 @@
         <label for="btn_menu">&#9776;</label>
         <nav>
             <ul class="nav__links">
-                <li><a href="index.php">Menu</a></li>
+                <li><a href="index.php">Home</a></li>
                 <li><a href="..\umaIdeiaSuperfula\serviços\servicos.php">Serviços</a></li>
                 <li><a href="..\umaIdeiaSuperfula\sobre\sobre.php">Sobre</a></li>
             </ul>
@@ -70,15 +70,15 @@
 
       <img src="..\umaIdeiaSuperfula\css\img\predio.jpg" class="Main_img">
       <br><br>
-      <div style="border:1px solid black; width:100%; height:230px;">
+      <div>
       <div style="width:75%; height:99%;border: 1px solid black; margin-left:15%;">
           <h1 class="descricao">Terceirização de serviços</h1>
-          <p class="paragrafo">Prestamos serviços de terceirização de mão-de-obra, especializada ou semi-especializada, com treinamento, orientação e supervisão constantes para cada função e posto de serviço, adequando nosso procedimento padrão à cultura e necessidades específicas de cada cliente.<br><br>
-          Tenha à sua disposição a nossa experiência de mais de 18 anos no mercado e uma equipe preparada para atender suas necessidades de serviços de apoio. </p>
+          <p class="paragrafo">Prestamos serviços de terceirização de mão-de-obra, especializada ou semi-especializada, com treinamento, orientação e supervisão constantes para cada função e posto de serviço, adequando nosso procedimento padrão à cultura e necessidades específicas de cada cliente.</p>
+          <p class="paragrafo">Tenha à sua disposição a nossa experiência de mais de 18 anos no mercado e uma equipe preparada para atender suas necessidades de serviços de apoio. </p>
       </div>
       </div>
       <br>
-      <div class="f" style=" border:1px solid black; width:100%; height:400px;">
+      <div class="f" style="border:1px solid black; width:100%; height:280px;">
           <div class="imagem">
             <img src="..\umaIdeiaSuperfula\css\img\S9.jpeg">
           </div>
@@ -87,12 +87,12 @@
             </p>
       </div>
       <br><br>
-      <div style=" border:1px solid black; width:100%; height:190px;">
+     
       <div class="paiTexto1" style=" width:75%; height:99%;border: 1px solid black; margin-left:15%;">
           <h1 class="descricao">Portaria terceirizada</h1>
-          <p class="paragrafo">A LIMP SERV presta serviços terceirizados de Portaria e Controle de Acesso para condomínios residenciais e comerciais, indústrias, e  empresas de diversos portes e segmentos, utilizando de mão de obra treinada e capacitada, com acompanhamento e supervisão constante. </p>
+          <p class="paragrafo">A S&C presta serviços terceirizados de Portaria e Controle de Acesso para condomínios residenciais e comerciais, indústrias, e  empresas de diversos portes e segmentos, utilizando de mão de obra treinada e capacitada, com acompanhamento e supervisão constante. </p>
       </div>
-      </div>
+      
       
       <div class="paiTexto2" style=" border:1px solid black; width:100%; height:190px;">
       <div style=" width:75%; height:99%;border: 1px solid black; margin-left:15%;">
@@ -101,7 +101,7 @@
       </div>
       </div>
 
-      <div class="paiTexto2" style=" border:1px solid black; width:100%; height:190px;">
+      <div class="paiTexto2" style=" border:1px solid black; width:100%; height:100px;">
       <div style=" width:75%; height:99%;border: 1px solid black; margin-left:15%;">
           <h1 class="descricao">Serviço de recepção</h1>
           <p class="paragrafo">Recepcionar bem os funcionários, visitantes e fornecedores, além do aspecto segurança, implica, sobretudo, em demonstrar profissionalismo e organização, contribuindo para a construção da boa imagem para o contratante. </p>
@@ -128,7 +128,7 @@
           <p>Digite seu email para receber nossas novidades.</p><br>
           <form action="" class="newsletter-form">
             <input type="text" class="txtb" placeholder="Digite Seu Email">
-            <input type="submit" class="btn" value="submit">
+            <input type="submit" class="btn" value="Enviar">
           </form>
         </div>
       </div>

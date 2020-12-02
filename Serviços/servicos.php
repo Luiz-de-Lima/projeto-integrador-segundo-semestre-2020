@@ -11,11 +11,13 @@
     <link rel="stylesheet" href="..\css\footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <!--footer------------------------------------------------------------------->
-    <title>Uma Idéia Supérfula</title>
+    <title>Serviços</title>
 </head>
 <body>
     <header>
         <img src="..\css\img\logoCopia.png" alt="" class="logo">
+        <input type="checkbox"  id="btn_menu">
+        <label for="btn_menu">&#9776;</label>
         <nav>
             <ul class="nav__links">
                 <li><a href="..\index.php">Menu</a></li>

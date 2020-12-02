@@ -1,48 +1,49 @@
 * {
     margin: 0;
     padding: 0;
+    color: #f1f1f1;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
 }
 
 #container {
-    box-sizing: border-box;
     width: 100%;
     max-width: 850px;
-    margin: 40px
 }
 
 #container h1 {
-    color: antiquewhite;
+    text-align: center;
     font-weight: bold;
 }
 
+#contato {
+    margin: auto 40px;
+}
+
 #contato legend {
-    font-size: 2.5rem;
-    color: antiquewhite;
+    font-size: 1.5rem;
     margin-bottom: 2rem;
+    text-align: center;
 }
 
 #contato .formLabel label {
     font-size: 1.2rem;
-    color: aliceblue;
     border-radius: 2px;
     margin: 20px
 }
 
 #contato .formInput input {
     width: 80%;
-    color: aliceblue;
     margin: 6px
 }
 
 #contato .formInput textarea {
-    width: 80%;
-    margin-left: 10px;
+    width: 50%
 }
 
 #contato .botao button {
     width: 70%;
     background-color: #fc5c65;
-    margin-right: 10px;
     margin-top: 10px;
 }
 

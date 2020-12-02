@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="..\css\footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <!--footer------------------------------------------------------------------->
-    <title>Uma Idéia Supérfula</title>
+    <title>Contato</title>
 </head>
 
 <body>
@@ -40,14 +40,14 @@
       ::-webkit-scrollbar-thumb {
         background-color: transparent;
       }
- 
+
   </style>
 
 <!--Abaixo do header-->
 <div id="container">
       <h1>Sinta se a vontade em nos enviar um email com seu pedido.</h1>
       <div id="contato">
-          <fieldset>
+        
                 <legend>Contato</legend>
                 <form action="email.php" method="post">
                     <div class="formLabel">
@@ -85,7 +85,6 @@
         
                     
                 </form>
-          </fieldset>
       </div>
 </div>
 
