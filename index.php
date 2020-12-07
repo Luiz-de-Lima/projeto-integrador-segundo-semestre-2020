@@ -21,7 +21,7 @@
         <label for="btn_menu">&#9776;</label>
         <nav>
             <ul class="nav__links">
-                <li><a href="index.php">Home</a></li>
+                <li><a href="index.php">Menu</a></li>
                 <li><a href="..\umaIdeiaSuperfula\serviços\servicos.php">Serviços</a></li>
                 <li><a href="..\umaIdeiaSuperfula\sobre\sobre.php">Sobre</a></li>
             </ul>

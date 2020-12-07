@@ -45,10 +45,12 @@
 
 <!--Abaixo do header-->
 <div id="container">
-      <h1>Sinta se a vontade em nos enviar um email com seu pedido.</h1>
+  <br><br><br>
+      <h1 style="font-size:25px ;">Sinta se a vontade em nos enviar um email com seu pedido.</h1>
+      <br><br><br>
       <div id="contato">
         
-                <legend>Contato</legend>
+                
                 <form action="email.php" method="post">
                     <div class="formLabel">
                         <label  for="nome">Insira seu Nome:</label>
@@ -75,12 +77,12 @@
                         <label for="assunto">Assunto:</label>
                     </div>
                     <div class="formInput">
-                        <textarea name="assunto" id="assunto" cols="30" rows="10">
+                        <textarea name="assunto" id="assunto" cols="30" rows="10" style="margin-left: 6px;">
                         </textarea>
                     </div>
                     
                     <div class="botao">
-                    <button  type="submit">Enviar</button>
+                    <button  type="submit" style="width:200px;margin-left:1%;">Enviar</button>
                     </div>
         
                     

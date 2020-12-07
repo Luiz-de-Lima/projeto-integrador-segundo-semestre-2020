@@ -52,7 +52,7 @@
     
 <section class="work1">
     <div class="servicos">
-        <img src="..\css\img\S1.jpg" alt="Recepção" title="Recepção"> 
+        <img src="..\css\img\S1.jpg" alt="Recepção" title="Recepção" class="s1"> 
         <!-- ocultar texto e fazer aparecer qdo passa o mouse no H3 -->
                 <h3>Recepção</h3>
                 <div class="conteudo">
@@ -63,7 +63,7 @@
                 </div>      
       </div>
     <div class="servicos">
-        <img src="..\css\img\S2.png" alt="Limpeza" title="Limpeza e conservação">
+        <img src="..\css\img\S2.png" alt="Limpeza" title="Limpeza e conservação" class="s2">
         <h3>Limpeza e conservação</h3>
         <div class="conteudo">
                     <p class="descricao">
@@ -74,7 +74,7 @@
         </div>
     </div>
     <div class="servicos">
-        <img src="..\css\img\S3.jpg" alt="servicos" title="Controle de acesso">
+        <img src="..\css\img\S3.jpg" alt="servicos" title="Controle de acesso" class="s3">
         <h3>Controle de acesso</h3>
         <div class="conteudo">
                     <p class="descricao">

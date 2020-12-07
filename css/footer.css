@@ -122,6 +122,10 @@ footer {
         width: 100%;
         text-align: center;
     }
+    .border {
+        margin-left: 12%;
+    }
+    
 }
 
 @media screen and (max-width:714px) {

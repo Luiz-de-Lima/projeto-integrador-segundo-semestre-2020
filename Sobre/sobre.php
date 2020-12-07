@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="..\css\footer.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <!--footer------------------------------------------------------------------->
-    <title>Uma Idéia Supérfula</title>
+    <title>Sobre a Empresa</title>
 </head>
 <body>
     <header>
